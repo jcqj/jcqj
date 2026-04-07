@@ -7,8 +7,6 @@
 
  🚀 Apasionado por la tecnología, la programación y el aprendizaje continuo.
 
---- 
---- 
 ---
 
 ## Sobre mí
@@ -19,8 +17,6 @@
 
 🧩 Me gusta aprender de forma autónoma y enfrentar nuevos retos tecnológicos. 
 
---- 
---- 
 ---
 
 📫 Contacto: | 
@@ -28,8 +24,6 @@
 📧 [Email](juancquevedoj@gmail.com) | 
 🌐 [Portafolio](https://jcqj.github.io/)
 
---- 
---- 
 ---
 
 
