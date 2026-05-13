@@ -1,48 +1,246 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portafolio tipo laboratorio digital con estética técnica diferencial.">
+    <title>JCQJ · Portafolio Laboratorio Digital</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
-    <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-    <h1>My Portfolio en Desarrollo</h1>
-    <section>
-        <h2 id="about">About Me</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel sapien eget nunc efficitur commodo.</p>
-    </section>
-    <section>
-        <h2 id="projects">Projects</h2>
-        <p>Acá estara la lista de mis proyectos.</p>
-        <ul>
-            <li>Project 1</li>
-            <li>Project 2</li>
-            <li>Project 3</li>
-        </ul>
-    </section>
-    <section>
-        <h2 id="contact">Contacto</h2>
-        <p>Puedes encontrarme en:</p>
-        <ul>
-            <li><a href="mailto:juancquevedoj@gmail.com">Email</a></li>
-            <li><a
-                    href="https://www.linkedin.com/in/juan-camilo-quevedo-jaimes-fullstack-developer-java-python">LinkedIn</a>
-                /</li>
-            <li><a href="tel:+573195572768">Phone</a></li>
-        </ul>
-    </section>
+    <header class="site-header">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container py-3">
+                <a class="navbar-brand d-flex align-items-center gap-2" href="#inicio">
+                    <span class="nav-logo" aria-hidden="true">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.7">
+                            <path d="M6 18V6h5c2.5 0 4 1.5 4 3.8S13.5 14 11 14H6" />
+                            <path d="M13 13l5 5" />
+                        </svg>
+                    </span>
+                    <span>JCQJ</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav2"><span
+                        class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="nav2">
+                    <ul class="navbar-nav ms-auto gap-lg-3 mt-3 mt-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#sobre-mi">Sobre mí</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#proyectos">Proyectos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="inicio">
+            <div class="container">
+                <div class="row g-4 align-items-center">
+                    <div class="col-lg-7">
+                        <div class="eyebrow">Laboratorio digital · portafolio técnico</div>
+                        <h1>Construyo sistemas, interfaces y soluciones aplicadas.</h1>
+                        <p class="muted">Esta versión se siente más diferencial y técnica. Mantiene orden visual, pero
+                            incorpora una estética de laboratorio, arquitectura y experimentación controlada.</p>
+                        <div class="focus-line mt-3">Desarrollo interfaces, automatización y sistemas embebidos.</div>
+                        <div class="d-flex flex-wrap gap-3 mt-4">
+                            <a href="#proyectos" class="btn-main">Explorar casos</a>
+                            <a href="#contacto" class="btn-ghost">Contáctame</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="hero-shell">
+                            <div class="terminal-line">perfil.activo = true</div>
+                            <div class="terminal-line">enfoque = ['software', 'automatización', 'hardware']</div>
+                            <div class="terminal-line">modo = 'case-study'</div>
+                            <div class="info-box">
+                                <div class="mono-label mb-2">Estado del perfil</div>
+                                <p class="muted mb-0">Ideal para transmitir una identidad más propia y menos cercana a
+                                    una landing genérica.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-block" id="sobre-mi">
+            <div class="container">
+                <div class="row g-4 align-items-center">
+                    <div class="col-lg-5">
+                        <div class="about-shell">
+                            <div class="blueprint"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="about-shell">
+                            <div class="section-kicker">Sobre mí</div>
+                            <h2 class="section-title">Una identidad visual más cercana a systems engineer.</h2>
+                            <p class="muted">Aquí puedes presentar tu perfil como alguien que diseña, conecta y ejecuta
+                                soluciones. Esta opción funciona especialmente bien si quieres destacar proyectos donde
+                                convergen software, hardware y lógica técnica.</p>
+                            <div class="about-grid mt-4">
+                                <div class="about-unit"><span>Perfil</span>Desarrollador técnico con enfoque práctico.
+                                </div>
+                                <div class="about-unit"><span>Fortaleza</span>Conectar interfaz, control y ejecución.
+                                </div>
+                                <div class="about-unit"><span>Stack</span>Bootstrap, Python, ESP32, Raspberry Pi.</div>
+                                <div class="about-unit"><span>Valor</span>Traducir problemas reales en sistemas
+                                    funcionales.</div>
+                            </div>
+                            <div class="stack-grid">
+                                <div class="stack-card">
+                                    <div class="mono-label mb-2">Frontend</div>
+                                    <h3>Interfaces y experiencia visual</h3>
+                                    <ul>
+                                        <li>Bootstrap 5 y maquetación responsive.</li>
+                                        <li>HTML, CSS y componentes reutilizables.</li>
+                                        <li>Interfaces claras para monitoreo y control.</li>
+                                    </ul>
+                                </div>
+                                <div class="stack-card">
+                                    <div class="mono-label mb-2">Backend</div>
+                                    <h3>Lógica, datos y automatización</h3>
+                                    <ul>
+                                        <li>Python para scripting y procesamiento.</li>
+                                        <li>Integración de lógica de negocio y flujos.</li>
+                                        <li>Estructuración de soluciones mantenibles.</li>
+                                    </ul>
+                                </div>
+                                <div class="stack-card">
+                                    <div class="mono-label mb-2">Embedded</div>
+                                    <h3>Control físico y sistemas aplicados</h3>
+                                    <ul>
+                                        <li>ESP32, Raspberry Pi y periféricos.</li>
+                                        <li>Automatización, lectura de señales y control.</li>
+                                        <li>Proyectos donde software y hardware convergen.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-block pt-0" id="proyectos">
+            <div class="container">
+                <div class="section-kicker">Proyectos</div>
+                <h2 class="section-title">Casos de estudio con una lectura más técnica y distintiva.</h2>
+                <p class="muted mb-4">Cada proyecto puede sentirse como una ficha de laboratorio: contexto, señales,
+                    enfoque, implementación y resultado.</p>
+
+                <div class="d-grid gap-4">
+                    <article class="case-shell">
+                        <div class="row g-0 align-items-stretch">
+                            <div class="col-lg-4">
+                                <div class="case-panel">
+                                    <div class="mono-label">Caso 01 · embebidos</div>
+                                    <h3 class="h4 mt-2 mb-3">Sistema automatizado</h3>
+                                    <div class="signal-box">
+                                        <div class="signal-row"><span>Estado</span><span>Operativo</span></div>
+                                        <div class="signal-row"><span>Área</span><span>Control y automatización</span>
+                                        </div>
+                                        <div class="signal-row"><span>Visual</span><span>Mockup / esquema</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-8">
+                                <div class="case-body">
+                                    <h3>Sistema con control programado y parámetros configurables</h3>
+                                    <p class="muted">La card deja espacio para explicar la lógica del proyecto, la
+                                        interacción con el usuario y la razón por la que la solución fue efectiva.</p>
+                                    <div class="case-tags">
+                                        <span>ESP32</span><span>Interfaz</span><span>Motores</span><span>Automatización</span>
+                                    </div>
+                                    <ul class="case-list">
+                                        <li>Define el problema o necesidad operativa que resolviste.</li>
+                                        <li>Resume la arquitectura o el flujo implementado.</li>
+                                        <li>Cierra con el resultado, mejora o aprendizaje técnico.</li>
+                                    </ul>
+                                    <div class="d-flex flex-wrap gap-3">
+                                        <a href="#" class="btn-main">Ver proyecto</a>
+                                        <a href="#" class="btn-ghost">Repositorio</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="case-shell">
+                        <div class="row g-0 align-items-stretch">
+                            <div class="col-lg-4">
+                                <div class="case-panel">
+                                    <div class="mono-label">Caso 02 · software aplicado</div>
+                                    <h3 class="h4 mt-2 mb-3">Interfaz y monitoreo</h3>
+                                    <div class="signal-box">
+                                        <div class="signal-row"><span>Modo</span><span>Responsive</span></div>
+                                        <div class="signal-row"><span>Stack</span><span>Bootstrap / JS / Python</span>
+                                        </div>
+                                        <div class="signal-row"><span>Salida</span><span>UI / control</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-8">
+                                <div class="case-body">
+                                    <h3>Proyecto técnico con lectura clara y estructura modular</h3>
+                                    <p class="muted">Esta tarjeta funciona para proyectos web, monitoreo, dashboards o
+                                        interfaces donde el orden técnico es parte del valor.</p>
+                                    <div class="case-tags"><span>Bootstrap 5</span><span>Responsive</span><span>UI
+                                            modular</span><span>Integración</span></div>
+                                    <ul class="case-list">
+                                        <li>Muestra capturas, diagramas o estados clave del sistema.</li>
+                                        <li>Explica tu aporte específico y la lógica de implementación.</li>
+                                        <li>Destaca claridad, mantenibilidad o escalabilidad del resultado.</li>
+                                    </ul>
+                                    <div class="d-flex flex-wrap gap-3">
+                                        <a href="#" class="btn-main">Ver proyecto</a>
+                                        <a href="#" class="btn-ghost">Repositorio</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-block" id="contacto">
+            <div class="container">
+                <div class="contact-shell">
+                    <div class="section-kicker">Contacto</div>
+                    <h2 class="section-title">Un cierre más técnico, pero todavía profesional.</h2>
+                    <p class="muted">Úsalo para invitar a revisar tu trabajo, escribirte por correo o visitar tu GitHub
+                        y LinkedIn.</p>
+                    <div class="d-flex flex-wrap gap-3 mt-3">
+                        <a href="mailto:tucorreo@ejemplo.com" class="btn-main">Enviar correo</a>
+                        <a href="https://github.com/" target="_blank" rel="noopener noreferrer"
+                            class="btn-ghost">GitHub</a>
+                        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"
+                            class="btn-ghost">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container d-flex flex-column flex-md-row justify-content-between gap-2">
+            <span>© 2026 · Portafolio laboratorio digital</span>
+            <span>Dark mode técnico · Bootstrap 5</span>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
 </body>
-<footer>
-    <p>&copy; 2026 My Portfolio. All rights reserved.</p>
-</footer>
 
 </html>
